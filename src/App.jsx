@@ -20,11 +20,10 @@ function App() {
       <ContactModal visible={modalVisible} setVisible={setModalVisible} />
       <FastActionButton handleOnClick={handleFABClick} />
       <div className="card">
-        {/* TODO: Add github profile pic */}
+        {/* <img src="imagem de perfil"> */}
         <h1>Sobre mim</h1>
         <p>
-          Desenvolvedor Fullstack com ~3 anos de experiência. Nesses anos pude
-          aprender sobre a stack utilizada na Valiant Group {"(VG)"}.
+          Desenvolvedor Web Fullstack. .
         </p>
         <p>
           Sou comprometido com minhas tarefas, sei trabalhar em equipe e adoro

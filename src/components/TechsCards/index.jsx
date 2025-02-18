@@ -2,11 +2,13 @@ import React from "react";
 
 // Frontend
 import reactsvg from "../../assets/react.svg";
-import fioriui5svg from "../../assets/fioriui5.svg";
 import styledcomponentspng from "../../assets/styledcomponents.png";
-import coreuisvg from "../../assets/coreui.svg";
-import gluestackuisvg from "../../assets/gluestackui.png";
-import linariasvg from "../../assets/linaria.svg";
+import  JavaScript from "../../assets/javascript_image.png";
+import  html from "../../assets/html_image.png";
+import  css from "../../assets/css_image.png";
+// import coreuisvg from "../../assets/coreui.svg";
+// import gluestackuisvg from "../../assets/gluestackui.png";
+// import linariasvg from "../../assets/linaria.svg";
 
 // Backend
 import nodesvg from "../../assets/nodejs.svg";
@@ -32,88 +34,43 @@ export function TechsCards() {
     <>
       <h1>Minhas Tecnologias</h1>
       <div className="tech-cards">
-        <div className="tech-card frontend">
-          <img className="tech-logo" src={reactsvg} alt="React logo" />
-        </div>
-        <div className="tech-card frontend">
-          <img className="tech-logo" src={reactsvg} alt="React-Native logo" />
-        </div>
-        <div className="tech-card frontend">
-          <img className="tech-logo" src={fioriui5svg} alt="Fiori UI5 logo" />
-        </div>
+        
+
         <div className="tech-card frontend">
           <img
             className="tech-logo"
             style={{ width: "55px", height: "55px" }}
-            src={styledcomponentspng}
+            src={html}
             alt="Styled-Components logo"
           />
         </div>
+
         <div className="tech-card frontend">
           <img
             className="tech-logo"
-            style={{ width: "65px", height: "65px" }}
-            src={coreuisvg}
-            alt="CoreUI logo"
+            style={{ width: "55px", height: "55px" }}
+            src={css}
+            alt="Styled-Components logo"
           />
         </div>
+
         <div className="tech-card frontend">
           <img
             className="tech-logo"
-            src={gluestackuisvg}
-            alt="Gluestack UI logo"
+            style={{ width: "55px", height: "55px" }}
+            src={JavaScript}
+            alt="Styled-Components logo"
           />
         </div>
+
         <div className="tech-card frontend">
-          <img
-            className="tech-logo"
-            style={{ width: "60px", height: "60px" }}
-            src={linariasvg}
-            alt="Linaria logo"
-          />
+          <img className="tech-logo" src={reactsvg} alt="React logo" />
         </div>
+        
         <div className="tech-card">
           <img className="tech-logo" src={nodesvg} alt="NodeJS logo" />
         </div>
-        <div className="tech-card">
-          <img
-            className="tech-logo"
-            src={typescriptsvg}
-            alt="TypeScript logo"
-          />
-        </div>
-        <div className="tech-card">
-          <img
-            className="tech-logo"
-            src={awslambdasvg}
-            alt="AWS Lambdas logo"
-          />
-        </div>
-        <div className="tech-card">
-          <img
-            className="tech-logo"
-            src={serverlesssvg}
-            alt="Serverless Framework logo"
-          />
-        </div>
-        <div className="tech-card">
-          <img className="tech-logo" src={typeormsvg} alt="TypeORM logo" />
-        </div>
-        <div className="tech-card">
-          <img className="tech-logo" src={awssvg} alt="AWS logo" />
-        </div>
-        <div className="tech-card">
-          <img className="tech-logo" src={gcpsvg} alt="GCP logo" />
-        </div>
-        <div className="tech-card">
-          <img className="tech-logo" src={dbeaverpng} alt="DBeaver logo" />
-        </div>
-        <div className="tech-card">
-          <img className="tech-logo" src={postmansvg} alt="Postman logo" />
-        </div>
-        <div className="tech-card">
-          <img className="tech-logo" src={insomniasvg} alt="Insomnia logo" />
-        </div>
+        
         <div className="tech-card">
           <img className="tech-logo" src={git} alt="Git logo" />
         </div>
