@@ -12,19 +12,22 @@ import  css from "../../assets/css_image.png";
 
 // Backend
 import nodesvg from "../../assets/nodejs.svg";
-import typescriptsvg from "../../assets/typescript.svg";
-import awslambdasvg from "../../assets/awslambda.svg";
-import serverlesssvg from "../../assets/serverless.svg";
-import typeormsvg from "../../assets/typeorm.png";
+import mongodb from "../../assets/mongo_image.png"
+import vite from "../../assets/vite_image.png"
 
-// Clouds
-import awssvg from "../../assets/aws.svg";
-import gcpsvg from "../../assets/gcp.svg";
+// import typescriptsvg from "../../assets/typescript.svg";
+// import awslambdasvg from "../../assets/awslambda.svg";
+// import serverlesssvg from "../../assets/serverless.svg";
+// import typeormsvg from "../../assets/typeorm.png";
+
+// // Clouds
+// import awssvg from "../../assets/aws.svg";
+// import gcpsvg from "../../assets/gcp.svg";
 
 // Tools
-import dbeaverpng from "../../assets/dbeaver.png";
-import postmansvg from "../../assets/postman.svg";
-import insomniasvg from "../../assets/insomnia.svg";
+// import dbeaverpng from "../../assets/dbeaver.png";
+// import postmansvg from "../../assets/postman.svg";
+// import insomniasvg from "../../assets/insomnia.svg";
 import git from "../../assets/git.svg";
 
 import "./styles.css";
@@ -39,7 +42,7 @@ export function TechsCards() {
         <div className="tech-card frontend">
           <img
             className="tech-logo"
-            style={{ width: "55px", height: "55px" }}
+            style={{ width: "100px", height: "55px" }}
             src={html}
             alt="Styled-Components logo"
           />
@@ -48,7 +51,7 @@ export function TechsCards() {
         <div className="tech-card frontend">
           <img
             className="tech-logo"
-            style={{ width: "55px", height: "55px" }}
+            style={{ width: "100px", height: "55px" }}
             src={css}
             alt="Styled-Components logo"
           />
@@ -69,6 +72,14 @@ export function TechsCards() {
         
         <div className="tech-card">
           <img className="tech-logo" src={nodesvg} alt="NodeJS logo" />
+        </div>
+
+        <div className="tech-card">
+          <img className="tech-logo" src={vite} alt="NodeJS logo" />
+        </div>
+
+        <div className="tech-card">
+          <img className="tech-logo" src={mongodb} alt="NodeJS logo" />
         </div>
         
         <div className="tech-card">
